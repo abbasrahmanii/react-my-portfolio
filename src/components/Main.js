@@ -54,12 +54,14 @@ export const Description = styled.div`
   }
   p {
     margin: 2rem 0;
+    font-size: 1.3rem;
   }
   form {
     display: flex;
     /* align-items: stretch; */
     input {
-      padding: 0.5rem 1rem;
+      width: 35%;
+      padding: 0.75rem 1rem;
       border: 0;
       ::placeholder {
         color: #494949;
