@@ -9,7 +9,10 @@ const Main = () => {
         <h1>Building digital</h1>
         <h1>products,brands</h1>
         <h1>
-          <span>1</span> experience.
+          <span>
+            <i class="fas fa-code"></i>
+          </span>{" "}
+          experience.
         </h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
@@ -32,7 +35,7 @@ const Main = () => {
   );
 };
 
-export const MainStyle = styled.div`
+const MainStyle = styled.div`
   display: flex;
   width: 90%;
   min-height: 90vh;
@@ -40,7 +43,7 @@ export const MainStyle = styled.div`
   flex-wrap: wrap;
 `;
 
-export const Description = styled.div`
+const Description = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,7 +79,7 @@ export const Description = styled.div`
     }
   }
 `;
-export const Image = styled.div`
+const Image = styled.div`
   display: flex;
   flex: 1 20rem;
   height: 100%;

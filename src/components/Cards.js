@@ -24,7 +24,7 @@ const Cards = () => {
   );
 };
 
-export const CardStyle = styled.div`
+const CardStyle = styled.div`
   width: 90%;
   margin: 1rem auto;
   hr {
@@ -50,7 +50,8 @@ export const CardStyle = styled.div`
         padding: 0.5rem;
         color: #000;
         font-weight: bolder;
-        font-size: 1.7rem;
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
       }
       h5 {
         color: #494949;

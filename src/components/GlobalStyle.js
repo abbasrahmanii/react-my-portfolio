@@ -6,14 +6,22 @@ const GlobyleStyle = createGlobalStyle`
         padding:0;
         box-sizing:border-box;
     }
+
+    input,textarea {
+        outline: none;
+    }
+
     body {
         background-color: aliceblue;
     }
+
     li{
         list-style: none;
     }
+
     a {
         text-decoration: none;
+        color: #fff;
     }
 `;
 
